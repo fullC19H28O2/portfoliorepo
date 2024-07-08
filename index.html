@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Halil Tekin</div>
+        <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                </ul>
+        </div>
+    </nav>
+    <nav id ="hamburger-nav">
+        <div class="logo">Halil Tekin</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>  
+            </div>
+        </div>2
+    </nav>
+    <section id = "profile">
+        <div class="section__pic-container">
+            <img src="./assets 2/profile-pic.png" alt="Halil Tekin Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Halil Tekin</h1>
+            <p class="section__text__p2">Backend Developer</p>
+        
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('./assets 2/resume.pdf')">Download CV
+                </button>
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'">Contact
+                </button>
+            </div>
+                    <div id ="socials-container">
+                        <img src="./assets 2/linkedin.png" alt="My LinkedIn Profile" class="icon"
+                        onclick="location.href='https://www.linkedin.com/in/haliltekin-/'">
+                        <img src="./assets 2/github.png" alt="My Github Profile" class="icon"
+                        onclick="location.href='https://www.github.com/fullC19H28O2'">
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <!-- <div class="section__pic-container">
+                <img src="./assets 2/about-pic.png" alt="Profile picture" class="about-pic">
+            </div> -->
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets 2/experience.png" 
+                        alt="Experience icon" 
+                        class="icon">
+                        <h3>Experience</h3><br>
+                        <p><b>6 months </b> <br> <br> <b> Full Stack Development</b></p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets 2/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <br>
+                        <p class="ed">B.Sc. Bachelors Degree (Dropout) at <b>Ecolé 42</b></p>
+                        <br>
+                        <p class="ed">Associate Degree  <b> Computer Programming </b></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>As a computer programming student at Karamanoglu Mehmetbey University, I am looking for internship to
+                        improve my programming skills and be able to have experience in industry, currently i am learning Javascript
+                        and previously did C# Automations with databases also when i was studying at Ecole42 Istanbul learned C
+                        programming algorithms, how programming works on computer side and how the hardware responses our code
+                        blocks.</p>
+                </div>
+            </div>
+        </div>  
+        <img src="./assets 2/arrow.png" alt="arrow icon" class="icon arrow" 
+        onclick="location.href='.#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1"> Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Full Stack Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>C</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>C#</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>MSSQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>HTML5</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>      
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Working on SDET/QA Tester</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Postman</h3>
+                                <p>Learning</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Selenium</h3>
+                                <p>Learning</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Java</h3>
+                                <p>Learning</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>TestNG</h3>
+                                <p>Learning</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Eclipse</h3>
+                                <p>Learning</p>
+                            </div>
+                        </article>  
+                        <article>
+                            <img 
+                            src="./assets 2/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>JUnit</h3>
+                                <p>Learning</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>      
+            </div>
+            
+        </div>
+        <img src="./assets 2/arrow.png" alt="arrow icon" class="icon arrow" 
+        onclick="location.href='.#contact'">
+        <p class="os"> <b>Be able to use Windows and MacOS Platforms</b></p>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets 2/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:halil6.1.744@gmail.com">halil6.1.744@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets 2/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/haliltekin-">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Halil Tekin. All Rights Reserved.</p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
