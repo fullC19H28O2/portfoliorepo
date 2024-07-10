@@ -158,10 +158,18 @@ section{
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
+
+
+/* Dark mode styles */
 .title{
     font-size: 3rem;
     text-align: center;
 }
+.darkmode--activated h1.title {
+    color: #fff !important;
+    z-index:10;    
+  }
+  
 #socials-container{
     display: flex;
     justify-content: center;
@@ -240,6 +248,19 @@ section{
     right: -5rem;
     bottom: 2.5rem;
 }
+
+/* Dark mode styles */
+.darkmode--activated .details-container {
+  background-color: #000000 !important;
+  color: #fff !important;
+  border-color: #fffefe !important;
+}
+
+/* Eklemek isterseniz daha fazla stil */
+.darkmode--activated .details-container p {
+  color: #fefefe !important;
+}
+
 .details-container{
     padding: 1.5rem;
     flex: 2;
