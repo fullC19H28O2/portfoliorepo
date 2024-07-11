@@ -56,8 +56,9 @@ a:hover{
 /* HAMBURGER MENU */
 
 #hamburger-nav{
-    display: none;
+    display:none;
 }
+
 .hamburger-menu{
     position: relative;
     display: inline-block;
@@ -101,6 +102,9 @@ transition: all 0.3 ease-in-out;
 .menu-links.open{
     max-height: 300px;
 }
+.darkmode--activated #hamburger-nav span{ 
+    background-color: #fff !important;
+}
 .hamburger-icon.open span:first-child{
 transform: rotate(45deg) translate(10px,5px);
 }
@@ -119,6 +123,7 @@ transform: rotate(-45deg) translate(10px,-5px);
 .hamburger-icon span:first-child{
     transform: none;
 }
+
 /* SECTIONS */
 section{
     padding-top: 4vh;
