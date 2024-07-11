@@ -162,7 +162,10 @@ section{
 .title{
     font-size: 3rem;
     text-align: center;
-    z-index: 1000;
+}
+.darkmode--activated #about h1.title,
+.darkmode--activated #experience h1.title{
+    color: #fff !important;
 }
   
 #socials-container{
@@ -246,11 +249,16 @@ section{
 .details-container{
     padding: 1.5rem;
     flex: 2;
-    background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid; 
     border-color: rgb(163, 163, 163);
     text-align: center;
+}
+.darkmode--activated .details-container{
+    color: #fff !important;
+}
+.darkmode--activated .details-container p{
+    color: #fff !important;
 }
 .section-container{
     gap: 4rem;
